@@ -32,7 +32,7 @@
         animateIn: 'fadeIn',    // Use fadeIn for fading in
         items: 1,
         autoplay: true,
-        smartSpeed: 1000,
+        smartSpeed: 300,
         dots: false,
         loop: true,
         nav: true,
