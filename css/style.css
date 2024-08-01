@@ -821,7 +821,7 @@
 
 /*** testimonial Start ***/
 .testimonial {
-    background: linear-gradient(#ba2018bb, #ba2018bb), url(../imgs/IMG_7562.jpg);
+    background: white;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
