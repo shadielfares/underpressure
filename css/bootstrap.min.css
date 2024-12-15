@@ -3799,13 +3799,8 @@ fieldset:disabled .btn {
   overflow-y: auto;
 }
 @media (max-width: 576px) {
-    .navbar {
-        height: auto; /* Allow the height to adjust */
-        align-items: left;
-        flex-direction: column;
-    }
     .navbar-brand {
-        position: relative;
+        align-items: left;
         max-width: 100%;
     }
     .navbar-toggle {
