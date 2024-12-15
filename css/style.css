@@ -285,6 +285,8 @@
 
     .navbar-light .navbar-brand img {
         max-height: 45px;
+        justify-item: left;
+        align-item: bottom;
     }
 }
 
