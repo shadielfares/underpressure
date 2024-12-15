@@ -92,21 +92,6 @@
     color: var(--bs-secondary) !important;
 }
 
-/*** Banner resizing ***/
-
-.responsive-logo {
-    width: 100%;
-    max-width: 300px; /* Set a reasonable max-width for the image */
-    height: auto;
-    margin-right: 20px; /* Retain margin for spacing */
-}
-
-@media (max-width: 768px) {
-    .responsive-logo {
-        max-width: 100%; /* Allow the image to shrink for smaller screens */
-        margin-right: 0; /* Remove unnecessary margin on smaller screens */
-    }
-}
 /*** Section Title Start ***/
 .section-title {
     max-width: 900px;
@@ -230,7 +215,9 @@
 }
 
 .navbar-light .navbar-brand img {
-    max-height: 50px;
+    height: auto;
+    max-width:100%;
+    object-fit: contain;
     transition: .5s;
 }
 
