@@ -3798,6 +3798,20 @@ fieldset:disabled .btn {
   max-height: var(--bs-scroll-height, 75vh);
   overflow-y: auto;
 }
+@media (max-width: 576px) {
+    .navbar {
+        height: auto; /* Allow the height to adjust */
+        align-items: left;
+        flex-direction: column;
+    }
+    .navbar-brand {
+        position: relative;
+        max-width: 100%;
+    }
+    .navbar-toggle {
+        margin-top: 5px; /* Add spacing */
+    }
+}
 @media (min-width: 576px) {
   .navbar-expand-sm {
     flex-wrap: nowrap;
